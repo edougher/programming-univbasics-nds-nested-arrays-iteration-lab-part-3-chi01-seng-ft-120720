@@ -15,6 +15,7 @@ inner += 1
 end
 n += 1
 strings.join(" ")
+strings
 end
 end
 
