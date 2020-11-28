@@ -8,7 +8,7 @@ strings = []
 while n < src[n].count do
     inner = 0
   while inner < src[n][inner].count do
-    if src[n][inner].is_a?(String)
+    if src[n][inner].is_a?(string)
       strings << src[n][inner]
   end
 inner += 1
