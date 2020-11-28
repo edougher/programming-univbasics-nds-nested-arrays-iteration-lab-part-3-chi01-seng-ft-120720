@@ -5,9 +5,9 @@ def join_nested_strings(src)
 n = 0
 strings = []
 
-while n < src[n].count do
+while n < src.count do
     inner = 0
-  while inner < src[n][inner].count do
+  while inner < src[n].count do
     if src[n][inner].class == String
       strings << src[n][inner]
   end
