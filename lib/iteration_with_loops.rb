@@ -8,7 +8,7 @@ strings = []
 while n < src[n].count do
     inner = 0
   while inner < src[n][inner].count do
-    if src[n][inner].class == string
+    if src[n][inner].class == String
       strings << src[n][inner]
   end
 inner += 1
