@@ -14,9 +14,8 @@ while n < src.count do
 inner += 1
 end
 n += 1
-strings.join(" ")
-strings
 end
+ p strings.join(" ")
 end
 
 mixed_data_1 = [
